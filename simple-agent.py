@@ -49,3 +49,8 @@ agent_executor = AgentExecutor(agent=agent, tools=tools, verbose=True)
 question = "Convert 100 degrees Fahrenheit to Celsius & fetch me the weather in boston, USA today."
 response = agent_executor.invoke({"input": question})
 print(response)
+
+
+
+
+

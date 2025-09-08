@@ -3,3 +3,5 @@ langchain-openai
 langchain-community 
 requests
 langchain-tavily
+faiss-cpu
+
